@@ -42,7 +42,7 @@ const App = () => {
         {textList.map((textItem, index) => (
           <li
             onClick={() => clearItem(index)}
-            className="hover:line-through hover:text-cyan-500 cursor-pointer"
+            className="hover:line-through hover:text-red-500 cursor-pointer"
             key={index}
           >
             {textItem}
